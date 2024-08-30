@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/adi.dhawale/anaconda3'
+let g:netrw_dirhist_3='/home/adi.dhawale/github/FlightSystems/extlib/symforce/symforce/ops/impl'
+let g:netrw_dirhist_2='/home/adi.dhawale/github/FlightSystems/extlib/rust/egui_extras-0.19.0'
+let g:netrw_dirhist_1='/home/adi.dhawale/github/FlightSystems/tools/hawk_messages/src/msg_impls'
+let g:netrw_dirhist_0='/home/adi.dhawale/github/FlightSystems/tools/flight_systems_build_docker'
+let g:netrw_dirhist_9='/home/adi.dhawale/github/FlightSystems/tools'
+let g:netrw_dirhist_8='/home/adi.dhawale/software/AirSim/cmake/cmake-modules'
+let g:netrw_dirhist_7='/home/adi.dhawale/software/AirSim/cmake/AirLib'
+let g:netrw_dirhist_6='/home/adi.dhawale/software/airsim_test/AirLib/deps'
+let g:netrw_dirhist_5='/home/adi.dhawale/software/AirSimLite/SGM/src/stereoPipeline'
