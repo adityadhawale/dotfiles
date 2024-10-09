@@ -48,16 +48,28 @@ return require('packer').startup(function()
     use {
 	"zbirenbaum/copilot.lua",
     	cmd = "Copilot",
-	event = "InsertEnter",
-	config = function()
-		require("copilot").setup()
-	end,
+	    event = "InsertEnter",
+	    config = function()
+		  require("copilot").setup()
+	  end,
     }
 
     -- Git conflict markers
     use {'akinsho/git-conflict.nvim', tag="*", config = function()
         require("git-conflict").setup()
     end,
+    }
+
+    -- Black python formatter
+    use { 'psf/black', run = 'pip install black' }
+
+    -- Git fugitive
+    use 'tpope/vim-fugitive'
+
+    -- Lua line
+    use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
 
 end)
